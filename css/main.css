@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #8c8c8c;
+  background-color: #4d4d4d;
   height: 100%;
 }
 
@@ -113,11 +113,43 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+
+
+}
 
 /*** Added this note to see if it uploads the push to GitHub ****/
 
+header, footer, main {
+  display: flex;
+
+}
+
+ main {
+  font-size: 1.3em;
+  height: 200px;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 20px;
+
+ }
+
+header {
+  font-size: 3em;
+  height: 200px;
  
 }
+
+footer {
+  border-top: 1px solid #999999;
+  margin-top: 20px;
+  width: 100%;
+
+
+
+}
+
+
+
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
@@ -128,18 +160,23 @@ body {
   height: 300px;
   width: 30%;
   display:   flex;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
-  
+ 
+ 
+
 }
 
+
 .div-1 {
-  border-right: 1px solid #fff;
-  
+  border-right: 1px solid #595959;
+  padding-right: 40px;
 }
 
 .div-2 {
-  border-right: 1px solid #fff;
+  border-right: 1px solid #595959;
+  padding-right: 20px;
+ 
 }
 
 

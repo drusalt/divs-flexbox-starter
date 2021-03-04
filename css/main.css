@@ -114,7 +114,9 @@ body {
   display: flex;
   justify-content: space-between;
 
+/*** Added this note to see if it uploads the push to GitHub ****/
 
+ 
 }
 
 .div-1, .div-2, .div-3 {
